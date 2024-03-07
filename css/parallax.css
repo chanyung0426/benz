@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* parallax1 */
+
+@keyframes up {
+  0% {
+    transform: translateY(100px);
+    opacity: 0
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1
+  }
+}
+
+.section1_img1,
+.section1_text1,
+.section1_img2,
+.section1_text2 {
+  opacity: 0;
+}
+
+.section1_img1.on,
+.section1_text1.on,
+.section1_img2.on,
+.section1_text2.on {
+  opacity: 1;
+  animation: up 1s;
+  /* animation-name: up;
+  animation-duration: 1s; */
+}
+
+/* parallax2 */
+
+@keyframes right {
+  from {
+    transform: translateX(-100px);
+    opacity: 0
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1
+  }
+}
+
+.section2_left,
+.section2_right {
+  opacity: 0;
+}
+
+.section2_left.on,
+.section2_right.on {
+  animation: right 1s;
+  opacity: 1;
+}
+
+.section2_right.on {
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
