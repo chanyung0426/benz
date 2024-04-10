@@ -8,12 +8,12 @@
 
 ## 🕰️ 개발 기간
 
-23.11.27 - 24.12.22
+23.11 - 24.12
 
 ### ⚙️ 개발 환경
 
 - `HTML`
 - `CSS`
 - `Javascript`
-- **Library** : Slick Slider, AOS
+- **Framework/Library** : Slick Slider, AOS
 - **Tool** : Adobe XD
